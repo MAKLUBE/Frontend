@@ -1,0 +1,82 @@
+/*
+External CSS
+*/
+p{
+    color: green;
+}
+.highlight{
+    background-color: red;
+}
+
+h1{
+    color: lightyellow;
+}
+button{
+    background-color: lightblue;
+    color: whitesmoke;
+    border-radius: 12px;
+    padding: 10px;
+    border: solid  2px;
+    cursor: pointer;
+
+}
+/*
+id selector
+*/
+#main-heading {
+  color: lightgreen;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*
+class selector
+*/
+.center {
+  text-align: center;
+}
+body {
+    background-color: antiquewhite;
+    font-family: 'Arial';
+}
+.mix {
+    border-style: dotted dashed solid double;
+}
+.div-style {
+    background-color: lightcoral;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 50px;
+}
+.div-static {
+    position: static;
+}
+.div-relative {
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+.div-absolute {
+    position: absolute;
+    left: 50%;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.main-content{
+    background-color: lightblue; padding: 20px; border-radius: 10px;
+}
+.box-just-for-assignment{
+    background-color: lightgreen;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 50px;
+    width: 50%;
+}
