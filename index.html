@@ -4,21 +4,45 @@
 <head>
     <title> MY FIRST WEBPAGE </title>
     <link rel="icon" href="Metroman.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+<!--   internal css   --> 
+    <style>
+        h2 {
+            color: darkblue;
+        }
+        p {
+            font-family: 'Arial';
+            font-size: 20px;
+            text-align: justify;
+        }
+    </style>
 <head>
 <body style="background-color: antiquewhite;">
-    <h1 align="center" style="background-color: mediumseagreen;"> My full name is Sakenov Rassul </h1>
+
+
+
+    <div class="div-style div-static" style="text-align: center">    
+    <!-- Tipa inline css  and header-->
+    <h1 id="main-heading" align="center"> My full name is Sakenov Rassul </h1>
     <h2 align="center">
         2nd course of software engineering
     </h2>
+    </div>
+
+
+
+    <!-- Main content-->
+    <div class="main-content">
     <h3 align="center">
        About me
     </h3>
     <button type="button"> CLICK ME! </button> <br> <br>
 
 
-    <img src="Metroman.jpg" alt="RASSUL" width 200>
-
-    <p> I am 19 years old.<br>
+    <img src="" alt="RASSUL" style ="float: right; width: 300px; height: 250px; margin-left: 10%; border: lightgoldenrodyellow; border-radius: 15px;">
+    <div style="font-size: 20px">
+    <p style="font-size: 2em;"> I am 19 years old.<br>
         My hobby is playing basketball. Basketball has always been a big part of my life. I enjoy playing it with friends at the local court, and I try to practice as often as I can. The sport helps me stay active and healthy, and it also teaches me important values like teamwork, discipline, and perseverance. I love the excitement of a fast-paced game, the challenge of improving my skills, and the satisfaction of making a good shot or a smart pass. Watching professional basketball games also inspires me to learn new techniques and strategies. Overall, basketball is not just a hobby for me, but a passion that brings me joy and helps me grow both physically and mentally.</p>   
 
     <h4> My favorite hobbies </h4>
@@ -29,6 +53,7 @@
         <li>PLaying Basketball</li>
         <li>Bullying teenagers from arbat in Almaty</li>
     </ol>
+    </div>
 
 
     <h4> My favorite websites </h4>
@@ -43,7 +68,7 @@
 
 
     <h4> My weekly schedule </h4>
-    <table border="1">
+    <table class="mix", border="1">
         <tr>
             <th>Subject</th>
             <th>Day</th>
@@ -77,10 +102,10 @@
     </table><br>
 
 
-    <h3> My mood </h3>
+    <h3 class="highlight"> My mood </h3>
     <p> Right now, I am really glad to have this course especially
         with the teacher like Ms. Kuralay &#128516. I hope &#128517 she is really kind and
-        always ready to help us. I am really excited to learn
+        always ready to help us &#128525.
     </p>
 
 
@@ -93,14 +118,32 @@
     <td>
       <h2>Main Content</h2>
       <form>
-        ...form elements go here...
-      </form>
+        <label for="Name">Name:</label><br>
+        <input type="text" name="Name"><br>
+        <label for="Email">Email:</label><br>
+        <input type="email" name="Email"><br>
+        <label for="favorite_color">Favorite Color:</label><br>
+        <input type="color" name="favorite_color"><br>
+        <input type="submit" value="Submit">
+    </form>
     </td>
   </tr>
 </table>
+</div>
 
+<!--2 boxes-->
+<div class="box-just-for-assignment left">
+    <h3>This part just for assignment!</h3>
+</div>
 
+<div class="box-just-for-assignment right">
+    <h3>This part just for assignment!</h3>
+</div>
 
+<div class="clear"></div>
+
+<!-- Nevermind about this section just write it for myself -->
+<div class="div-style div-relative" >
     <h4> Contact me </h4>
 <br>
     <address>
@@ -111,6 +154,11 @@
     Box 777, Antlantida<br>
     Kazakhstan<br>
     </address>
+
+    <footer>
+        &copy; 2024 Sakenov Rassul
+</div>
+
 
 
 </body>
